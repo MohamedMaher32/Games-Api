@@ -1,0 +1,67 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Games</title>
+</head>
+<body>
+    <div class="loading d-none"><span class="loader"></span></div>
+    <section class="games pb-5" id="myGames">
+        <header>
+            <img src="image/wraper.png" alt="logo" class="w-100">
+        </header>
+        <nav class="navbar navbar-expand-lg col-md-6 col-lg-9 position-sticky top-0 mb-5">
+            <div class="container">
+              <h2 class="navbar-brand text-uppercase mb-0"><img src="image/logo-sm.png" alt="logo"> Game Reviews </h2>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa-solid fa-bars text-white fs-3 "></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" catogry="mmorpg">mmorpg</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" catogry="shooter">shooter</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" catogry="sailing">sailing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" catogry="permadeath">permadeath</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" catogry="superhero">superhero</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" catogry="pixel">pixel</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        <div>
+          <div class="container">
+            <div class="row g-4" id="myRow">
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="details d-none" id="myInfo">
+      <div class="container">
+        <div class="row justify-content-between py-4">
+          <h3 class="col-6">Details Game</h3>
+          <i class="fa-solid fa-xmark text-center fs-4 text-muted align-self-center" id="closePage"></i>
+        </div>
+        <div class="row" id="myDeatils"></div>
+      </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

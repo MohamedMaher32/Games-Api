@@ -1,0 +1,13 @@
+@media screen and (max-width:992px){
+    .navbar-toggler{
+        border: 2px solid #fff !important;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+}
+@media screen and (max-width:500px){
+    .details i{
+        margin-right: 15px;
+    }
+}
